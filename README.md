@@ -135,3 +135,6 @@ PPI prediction - Training samples generator. Usage:
   
   -v [ --version ]                      Display the version number
 
+############################################################################
+
+The "CHARMM22" file contains the atomic radii information used during the surface computation process. Users can append new entries at the end of this file, modify existing ones, or create their own file with the desired radius assignment for each atom type. It is required by both the "train" and "test" binaries to function correctly. The easiest way to correctly run the binaries would be to place all files in the same directory: train/test binary, CHARMM22 file and the two PDB files. The location of the CHARMM22 file can also be supplied to the binaries with the "--atom_radii" command line option followed with the full path to the file.
