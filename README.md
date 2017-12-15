@@ -1,5 +1,7 @@
 # PPIprediction
 
+software used in the paper "Exploring the potential of 3D Zernike descriptors and SVM for protein–protein interface prediction"
+
 ./train -h
 
 PPI prediction - Training samples generator. Usage:
