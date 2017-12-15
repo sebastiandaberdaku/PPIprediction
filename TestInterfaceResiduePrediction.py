@@ -31,7 +31,7 @@ outlier_fraction = {}
 
 outlier_fraction[("AB", "l", "b")] = 0.00
 outlier_fraction[("AB", "l", "u")] = 0.00
-outlier_fraction[("AB", "r", "b")] = 0.10 #0.10#0.789
+outlier_fraction[("AB", "r", "b")] = 0.44
 outlier_fraction[("AB", "r", "u")] = 0.47
 
 outlier_fraction[("A", "l", "b")] = 0.00
