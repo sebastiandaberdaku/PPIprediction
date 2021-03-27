@@ -2,6 +2,8 @@
 
 software used in the paper "Exploring the potential of 3D Zernike descriptors and SVM for protein–protein interface prediction"
 
+Folders *interface_descriptors_train* and *interface_descriptors_test* contain the C++ sources for, respectively, the **train** and **test** executables. They both require the Boost C++ library (specifically boost_program_options boost_regex boost_system and boost_filesystem).
+
 ./train -h
 
 PPI prediction - Training samples generator. Usage:
